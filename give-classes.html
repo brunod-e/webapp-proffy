@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="/styles/partials/header.css">
     <link rel="stylesheet" href="/styles/partials/forms.css">
     <link rel="stylesheet" href="/styles/partials/page-give-classes.css">
+
+    <script src="/scripts/addField.js" defer></script>
 </head>
 <body id="page-give-classes">
     <div id="container">
@@ -77,33 +79,8 @@
                 </fieldset>
                 <fieldset id="schedule-items">
                     <legend>Horários disponíveis
-                        <button id="add-time">+ Novo horário</button>
+                        <button type="button" id="add-time">+ Novo horário</button>
                     </legend>
-                    <div class="schedule-item">
-                        <div class="select-block">
-                            <label for="weekday">Dia da semana</label>
-                            <select name="weekday[]" required>
-                                <option value="" disabled="" hidden="">Selecione uma opção</option>
-                                <option value="0">Domingo</option>
-                                <option value="1">Segunda-feira</option>
-                                <option value="2">Terça-feira</option>
-                                <option value="3">Quarta-feira</option>
-                                <option value="4">Quinta-feira</option>
-                                <option value="5">Sexta-feira</option>
-                                <option value="6">Sábado</option>
-                            </select>
-                        </div>
-
-                        <div class="input-block">
-                            <label for="time-from">Das</label>
-                            <input type="time" name="time-from[]" required>
-                        </div>
-
-                        <div class="input-block">
-                            <label for="time-to">Até</label>
-                            <input type="time" name="time-to[]" required>
-                        </div>
-                    </div>
                     <div class="schedule-item">
                         <div class="select-block">
                             <label for="weekday">Dia da semana</label>
