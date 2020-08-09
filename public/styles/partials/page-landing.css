@@ -84,10 +84,16 @@
     margin-left: 0.8rem;
 }
 
-@media (max-width: 699px) {
+@media (max-width: 1100px) {
     :root {
         font-size: 40%;
     }
+
+    .hero-image {
+        grid-area: image;
+        height: 45rem;
+    }
+    
 }
 
 @media (min-width: 1100px) {
