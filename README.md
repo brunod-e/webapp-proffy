@@ -16,7 +16,7 @@ para instalar os pacotes JavaScript utilizados pela aplicação.
 
 Para iniciar o desenvolvimento digite
 
-`npm start`
+`npm run dev`
 
 A partir de então a aplicação estará disponível na porta 5500, definida no arquivo **server.js**. Para acessar, use o navegador e digite o endereço `https://localhost:5500`.
 
