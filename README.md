@@ -1,6 +1,6 @@
 # WebApp: PROFFY 
 
-A aplicação permite que o usuário se cadastre como professor ou faça uma busca no banco de dados por um professor que atenda seus requisitos.
+A aplicação, realizada na NextLevelWeek pela Rocketseat, permite que o usuário se cadastre como professor ou faça uma busca no banco de dados por um professor que atenda seus requisitos.
 
 ## Objetivo da aplicação
 
